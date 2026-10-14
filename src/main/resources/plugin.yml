@@ -1,0 +1,14 @@
+name: BountyCombat
+version: 1.0.0
+main: com.example.bountycombat.BountyCombat
+api-version: "26.2"
+description: Combat tagging and a Vault-based bounty system
+depend: [Vault]
+softdepend: [Essentials]
+commands:
+  bounty:
+    description: Check or add a bounty
+    usage: /bounty <player> | /bounty add <player> <amount>
+  bountyall:
+    description: Open the bounty leaderboard GUI
+    usage: /bountyall
