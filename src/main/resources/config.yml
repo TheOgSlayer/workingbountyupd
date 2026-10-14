@@ -1,0 +1,37 @@
+# Seconds a player stays in combat after hitting or being hit by another player
+combat-seconds: 20
+
+# Minimum money for one /bounty add
+min-bounty: 100
+
+# Also block ender pearls while in combat
+block-ender-pearls: false
+
+# Commands blocked during combat (without the slash; namespaces like essentials: are stripped automatically)
+blocked-commands:
+  - home
+  - homes
+  - spawn
+  - warp
+  - warps
+  - tp
+  - tpa
+  - tpahere
+  - tpaccept
+  - tpyes
+  - tpo
+  - tphere
+  - tpall
+  - back
+  - rtp
+  - wild
+  - hub
+  - lobby
+  - sethome
+  - tpr
+  - teleport
+  - spawnpoint
+  - bed
+  - base
+  - team
+  - kit
